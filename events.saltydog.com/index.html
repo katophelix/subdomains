@@ -48,8 +48,37 @@
     
     
     <body>
-            
-<style>
+           <!-- <script>const invocation = new XMLHttpRequest();
+            const url = 'https://saltydog.com/headers/_HeaderPartial.html';
+               
+            function callOtherDomain() {
+              if(invocation) {    
+                invocation.open('GET', url, true);
+                invocation.onreadystatechange = handler;
+                $("div[data-includeHTML]").each(function () {
+                $(this).load($(this).attr("data-includeHTML"));
+                invocation.send(); 
+            });
+            }
+            }
+        </script>  -->
+
+<script>
+        $(document).ready(function () {
+            $("div[data-includeHTML]").each(function () {
+                $(this).load($(this).attr("data-includeHTML"));
+            });
+        });
+    </script>
+
+
+
+
+
+    <header>
+        <div data-includeHTML="https://saltydog.com/headers/_HeaderPartial.html"></div>
+    </header>
+<!-- <style>
 /* CSS Document */
 /* #accorian1{width: 900px;  overflow: scroll; padding: 10px;}
 .mega-menu a{text-decoration: none; } */
@@ -164,7 +193,7 @@ text-align: left !important;
         <div class="accordion" id="accordion2">
 
             <!--ACCORDION ITEM TWO-->
-            <div class="accordion-group">
+            <!-- <div class="accordion-group">
                 <div class="accordion-heading">
 
                 </div>
@@ -173,7 +202,7 @@ text-align: left !important;
 
 
                         <!--ACCORDION INSIDE ACCORDION ITEM TWO-->
-                        <div class="accordion" id="accordion1">
+                        <!-- <div class="accordion" id="accordion1">
                             <div class="container">
 
                                 <div class="row">
@@ -455,7 +484,7 @@ text-align: left !important;
                                             </div>
                                         </div>
                                 </div>
-
+ -->
 
                                 <!-- <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -468,7 +497,7 @@ text-align: left !important;
                                         </div>
                                       </div> -->
 
-                            </div>
+                            <!-- </div>
                         </div>
                     </div>
 
@@ -479,7 +508,7 @@ text-align: left !important;
             <img src="https://saltydog.com/images/social-logos/SDHomepageICON.png" class="img-fluid" style="width:20%; float: right; vertical-align: text-bottom;"
                 alt="Instagram Logo.">
         </a>
-    </nav>
+    </nav>   -->
 
     <style>
         /* #fb-feed input {
