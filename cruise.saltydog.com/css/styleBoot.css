@@ -1,0 +1,203 @@
+
+
+.block-top {
+            
+    background: white;
+    padding: 1rem;
+   
+    margin: 0 0 1rem 0;
+    color: rgb(4, 4, 51);
+  }
+.block {
+    overflow: hidden;
+    background: white;
+    padding: 1rem;
+    max-width: 40rem;
+    margin: 0 0 1rem 0;
+    color: rgb(4, 4, 51);
+  }
+  .block img {
+    width: 70%;
+    height: auto;
+    float: left;
+    margin: 0 1rem 0 0;
+  }
+  .block p {
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+    color: rgb(4, 4, 51);
+  }
+  
+.block-left {
+    overflow: hidden;
+    background: white;
+    padding: 1rem;
+    max-width: 40rem;
+    margin: 0 0 1rem 0;
+    color: rgb(4, 4, 51);
+  }
+  .block-left img {
+    width: 70%;
+    height: auto;
+    float: left;
+    margin: 0 1rem 0 0;
+  }
+  .block-left p {
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+    color: rgb(4, 4, 51);
+  }
+  
+
+  .block-right {
+    overflow: hidden;
+    background: white;
+    padding: 1rem;
+    max-width: 40rem;
+    margin: 0 0 1rem 0;
+    color: rgb(4, 4, 51);
+  }
+  .block-right img {
+    width: 70%;
+    height: auto;
+    float: right;
+    margin: 0 1rem 0 0;
+  }
+  .block-right p {
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+    color: rgb(4, 4, 51);
+  }
+   .block-right ul li {
+
+    text-align: left;
+  } 
+
+  .block-right ul li img{
+
+    float: left;
+  } 
+  .block-center  {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin: 0 1rem 0 0;
+  }
+     
+        h1 {
+           
+            font-size: 4.0em;
+        }
+        
+        h2 {
+          
+            font-size: 3.0em;
+        }
+        h3 {
+           
+            font-size: 1.5em;
+        }
+        
+        h4 {
+           
+            font-size: 1.2em;
+        }
+        
+        h5 {
+         
+            font-size: .8em;
+           
+        }
+    
+        
+        
+        h6 {
+           
+         
+            font-size: .9em;
+        
+        }
+        
+        
+        p {
+         
+            font-size: .9em;
+        }
+       
+
+        label{
+
+            font-size: 30px !important;
+            
+        }
+        .form-group{
+            padding-bottom: 30px;
+        }
+
+
+     form{
+        border:   1px solid yellow"
+     }
+
+    
+        .col {
+            text-align: center;
+          
+            padding-top: 5px;
+
+        }
+
+        .container {
+            text-align: center;
+            /* margin-top: 5px; */
+            max-width: 1200px;
+        }
+
+        .row {
+            text-align: center;
+           
+
+        }
+
+        li {
+            color: rgb(4, 4, 51)!important;
+          
+        }
+
+        p {
+           
+            color: rgb(4, 4, 51)!important;
+        }
+
+     .card-body{
+        background: rgb(4, 4, 51);
+
+     }
+
+        h3 {
+            color: rgb(4, 4, 51) !important;
+            text-align: center;
+        }
+
+        h4 {
+            color: white !important;
+        }
+
+        h5 {
+            color: white !important;
+        }
+
+     h2 {
+         text-align: center;
+     }
+
+        h6 {
+           
+            color: rgb(4, 4, 51)!important;
+           
+        }
+        label{
+            text-align: left!important;
+        }
+
+     
