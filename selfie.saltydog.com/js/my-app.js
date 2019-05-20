@@ -46,7 +46,7 @@ jQuery(document).ready(function($){
 
 				   console.log(number);
 				    setTimeout(function(){
- document.getElementById("newimg").src="http://selfie.saltydog.com/src/image-" + number + ".jpg";
+ document.getElementById("newimg").src="https://selfie.saltydog.com/src/image-" + number + ".jpg";
     },1000);
 	$('.download').on('click',function(e) {
 		e.preventDefault();
@@ -55,7 +55,7 @@ jQuery(document).ready(function($){
 
 
 	var target = $('iframe').attr('src');
-	$('iframe').attr('src','http://selfie.saltydog.com/selfie/dev/dl.php?image=http://selfie.saltydog.com/src/image-' + number + '.jpg');
+	$('iframe').attr('src','https://selfie.saltydog.com/selfie/dev/dl.php?image=https://selfie.saltydog.com/src/image-' + number + '.jpg');
 			  
 //setTimeout(function(){
 // $('.ups').text('Great Shot!');
@@ -66,7 +66,7 @@ jQuery(document).ready(function($){
 var url="index.php";
 $('.discard').on('click',function(e){
 	e.preventDefault();     
-mainView.router.loadPage('http://selfie.saltydog.com/selfie/dev/index.php');
+mainView.router.loadPage('https://selfie.saltydog.com/selfie/dev/index.php');
 
 })
 

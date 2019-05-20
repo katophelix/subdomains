@@ -34,7 +34,6 @@ if (isset($_GET['image'])){
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>Salty Dog Selfie</title>
-    <link rel="icon" type="image/png" href="images/apple-touch-icon.png">
     <link rel="stylesheet" href="css/framework7.min.css">
     <link rel="stylesheet" href="css/my-app.css?v=234">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
