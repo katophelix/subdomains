@@ -1,0 +1,123 @@
+ #menu-container html { font-size: calc(1em + 1vw) }
+     
+        #menu-container h1 {
+            color: white !important;
+            font-size: 3.0em;
+        }
+        
+   
+   
+        #menu-container {
+           
+     
+         
+         
+       
+            margin: 0;
+            padding: 1rem;
+          }
+        
+        #menu-container h2 {
+            color: white !important;
+            font-size: 2.0em;
+        }
+        #menu-container h3 {
+           
+            font-size: 1.5em;
+        }
+        
+        #menu-container h4 {
+           
+            font-size: .9em;
+        }
+        
+      #menu-container   h5 {
+         
+            font-size: .7em;
+           
+        }
+        
+      
+        
+       #menu-container  h6 {
+           
+         
+            font-size: .9em;
+        
+        }
+        
+        
+        #menu-container p {
+         
+            font-size: .6em;
+            color: rgb(4, 4, 51)  !important;
+        }
+       
+
+        #menu-container label{
+
+            font-size: 30px !important;
+            
+        }
+      
+
+
+    
+       #menu-container  .col {
+            text-align: center;
+          
+            padding-top: 5px;
+
+        }
+
+        #menu-container {
+            text-align: center;
+            /* margin-top: 5px; */
+            max-width: 1200px;
+			color: rgb(4, 4, 51) !important;
+        }
+
+        #menu-container .row {
+            text-align: center;
+           
+
+        }
+
+       #menu-container  li {
+            padding: 5px;
+        }
+
+        #menu-container p {
+            text-align: left;
+            color: rgb(4, 4, 51);
+        }
+
+    
+
+       #menu-container  h3 {
+            color: rgb(4, 4, 51) !important;
+            text-align: left;
+        }
+
+        #menu-container h4 {
+            color: white !important;
+        }
+
+        #menu-container h5 {
+            color: white !important;
+        }
+
+    #menu-container  h2 {
+         text-align: center;
+     }
+
+        #menu-container h6 {
+           
+            color: rgb(4, 4, 51) !important;
+           
+        }
+        #menu-container label{
+            text-align: left!important;
+        }
+
+     

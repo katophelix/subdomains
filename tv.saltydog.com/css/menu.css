@@ -1,0 +1,84 @@
+     #menu-container {
+            color: rgb(4, 4, 51);
+            background: rgb(4, 4, 51);
+            padding: 10px 0;
+        }
+
+     
+       #menu-container  .btn-outline-info {
+            border-color: hsl(56, 94%, 66%);
+            background: rgb(4, 4, 51);
+            color: white;
+        }
+
+        #menu-container .btn-secondary {
+            background: rgb(4, 4, 51);
+            border-color: hsl(56, 94%, 66%);
+            color: white;
+           
+        }
+
+        #menu-container .btn-warning {
+            background: rgb(4, 4, 51);
+            border-color: hsl(56, 94%, 66%);
+            color: white;
+            
+         
+        }
+       #menu-container  .btn-menu {
+            background: hsl(56, 94%, 66%);
+            border-color: hsl(56, 94%, 66%);
+            color: black;
+
+        }
+
+        #menu-container .dropdown-submenu {
+            position: relative;
+
+            width: 100%;
+        }
+
+        #menu-container .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+            width: 100%;
+
+        }
+
+
+       #menu-container  .dropdown-menu {
+            background: rgb(4, 4, 51);
+            border-color: hsl(56, 94%, 66%);
+            color: yellow;
+            width: 100%;
+
+        }
+
+           #menu-container  .dropdown-item {
+            background: rgb(4, 4, 51);
+            border-color: hsl(56, 94%, 66%);
+            color: yellow;
+            width: 100%;
+
+        }
+
+    #menu-container  a button   .btn .btn-warning{
+            font-size: .5em !important;
+        }
+
+        #menu-container a {
+            background: rgb(4, 4, 51);
+            border-color: hsl(56, 94%, 66%);
+            color: white !important;
+        }
+
+       #menu-container  li{
+            font-size: .9em !important;
+        }
+       #menu-container  .btn{
+            font-size: .9em !important;
+        }
+       #menu-container  ul{ list-style-type: none; }
+
+       

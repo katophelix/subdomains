@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Goat Cam</title>
+
+<!-- <META http-equiv="refresh" content="120;URL=/index2.html"> -->
+
+</head>
+
+<body bgcolor="black">
+
+<div align="center">
+
+
+
+<script language="javascript">
+var refreshrate=1;             
+var image="http://64.203.225.15:8091/SnapshotJPEG?";     
+var imgheight=480;                   
+var imgwidth=640;                
+function refresh(){
+document.images["pic"].src=image+"?"+new Date();
+setTimeout('refresh()', refreshrate*1000);}
+document.write('<IMG SRC="'+image+'" ALT="Please Stand By For Webcam Photo Upload" NAME="pic" ID="pic" WIDTH="'+imgwidth+'" HEIGHT="'+imgheight+'" STYLE="border: 3px solid Black;">');
+if(document.images)window.onload=refresh;
+</script>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</body></html>
