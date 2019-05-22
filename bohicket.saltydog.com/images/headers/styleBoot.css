@@ -1,0 +1,113 @@
+html { font-size: calc(1em + 1vw) }
+     
+   
+        .block-top {
+            
+            background: white;
+            padding: 1rem;
+           text-align: center;
+            margin: 0 0 1rem 0;
+            color: rgb(4, 4, 51);
+          }
+        .block {
+            overflow: hidden;
+            
+            padding: 1rem;
+            max-width: 40rem;
+            margin: 0 0 1rem 0;
+            color: rgb(4, 4, 51);
+          }
+          .block1 {
+            overflow: hidden;
+            background-color: white;
+            padding: 1rem;
+            max-width: 40rem;
+            margin: 0 0 1rem 0;
+            color: rgb(4, 4, 51);
+          }
+          .block img {
+            width: 70%;
+            height: auto;
+            float: left;
+            margin: 0 1rem 0 0;
+          }
+          .block p {
+            font-weight: 500;
+            margin: 0 0 0.5rem 0;
+            color: rgb(4, 4, 51);
+          }
+          
+        .block-left {
+            overflow: hidden;
+            background: white;
+            padding: 1rem;
+            max-width: 40rem;
+            margin: 0 0 1rem 0;
+            color: rgb(4, 4, 51);
+          }
+          .block-left img {
+            width: 70%;
+            height: auto;
+            float: left;
+            margin: 0 1rem 0 0;
+          }
+          .block-left p {
+            font-weight: 500;
+            margin: 0 0 0.5rem 0;
+            color: rgb(4, 4, 51);
+          }
+          
+
+          .block-right {
+            overflow: hidden;
+            background: white;
+            padding: 1rem;
+            max-width: 40rem;
+            margin: 0 0 1rem 0;
+            color: rgb(4, 4, 51);
+          }
+          .block-right img {
+            width: 70%;
+            height: auto;
+            float: right;
+            margin: 0 1rem 0 0;
+          }
+          .block-right p {
+            font-weight: 500;
+            margin: 0 0 0.5rem 0;
+            color: rgb(4, 4, 51);
+          }
+           .block-right ul li {
+
+            text-align: left;
+          } 
+
+          .block-right ul li img{
+
+            float: left;
+          } 
+          .block-center  {
+            width: 40%;
+            height: auto;
+            float: right;
+            margin: 0 1rem 0 0;
+          }
+           
+        .carousel-inner img {
+            margin: auto;
+          }
+
+
+       
+
+     .card-body{
+        background: rgb(4, 4, 51);
+
+     }
+
+      
+
+
+   
+
+     
