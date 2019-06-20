@@ -1,28 +1,4 @@
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-date_default_timezone_set('America/New_York');
-define('DONOTCACHEPAGE',1);
-function curl_download($Url){
 
-    if (!function_exists('curl_init')){
-        die('cURL is not installed. Install and try again.');
-    }
-
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $Url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    $output = curl_exec($ch);
-    curl_close($ch);
-    return $output;
-}
-
-$temp = curl_download('http://www.saltydog.com/weather/sbeach/weather2.inc?v='.rand());
-$img = '';
-if (isset($_GET['image'])){
-	$img = $_GET['image'];
-}
-?>
 <script>
 
 </script>
@@ -153,14 +129,8 @@ var number = getRandomInt(1000, 9999)
                   
                   
                    <img id="cam" src="img/cam.png" alt="cam image" title="Take Your Pic" width="100" style="padding-bottom:0px;position:relative;left:-50px;margin-left:50%;">
-                   <?php
-				   if($img === 'fgfgfd'){
-					   ?>
-                        <div style="width:100%;text-align:center;color:#fff;">Take a new photo<br> or <span class="button cont color-white">continue with the previous one</span></div>
-                        <?php }else{?>
- <div style="width:100%;text-align:center;color:#fff;">Take Your Photo</div>
- <?php }?>
- </div>
+                    <div style="width:100%;text-align:center;color:#fff;">Take Your Photo</div>
+  </div>
 
                   </div>
                 </div>
@@ -212,8 +182,329 @@ var number = getRandomInt(1000, 9999)
       </div>-->
     </div>
     <div style="display:none;">
-<?php echo $temp;?>
-</div>
+<!DOCTYPE html>
+
+
+
+<html class="no-js">
+
+<!--<![endif]-->
+
+
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9994729-1"></script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-9994729-1'), { 'optimize_id': 'GTM-N9XR6RG'};
+
+    </script>
+
+
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<!--<meta http-equiv="refresh" content="10;url=http://www.saltydog.com/" />-->
+    <title>SaltyDog404</title>
+
+    <!-- Modernizr -->
+
+
+
+    <!-- jQuery-->
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- framework css -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!--<![endif]-->
+
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Quicksand" rel="stylesheet">
+
+
+
+    <!-- <link type="text/css" rel="stylesheet" href="../css/dropMenustyle.css"> -->
+
+    <link type="text/css" rel="stylesheet" href="../headers/styleBoot.css">
+
+    <link type="text/css" rel="stylesheet" href="../headers/mega-header.css">
+
+
+
+</head>
+
+
+
+<style>
+    body {
+    color: rgb(4, 4, 51);
+    background-image:url("https://saltydog.com/images/background/WEB-BACK-NEW.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+    min-height: 1400px
+}
+</style>
+
+
+
+<body>
+
+
+
+
+
+
+
+        <script>
+                $(document).ready(function () {
+                    $("div[data-includeHTML]").each(function () {                
+                        $(this).load($(this).attr("data-includeHTML"));
+                    });
+                });
+            </script>
+
+
+
+
+<header>
+        <div data-includeHTML="../headers/_HeaderPartial.html"></div>
+   </header>
+    <br>
+    <br>
+
+
+
+
+    <img src="https://saltydog.com/images/404Header.jpg" style="width:100%; height:auto; background-color: white" alt="Banner of Overhead drone shot of salty dog cafe in south beach, with salty dog logo and events written on it.">
+
+    <br>
+    <div class="container">
+        <br>
+        <div class="my-container">
+            <div class="row justify-content-center">
+
+
+
+
+                <div class="card" style="width: 90%;">
+
+                    <div class="card-body">
+
+                            <h6 class="card-subtitle mb-2 text-muted">       Woah, dude!</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"> It appears the page you're looking for has been </h6>
+                            
+                                <h6 class="card-subtitle mb-2 text-muted"> 
+                            replaced with this cute little surfer, Jake!</h6>
+
+
+<img src="https://saltydog.com/images/SurferJake.png"> 
+
+<br>
+<br>
+                        <h6 class="card-subtitle mb-2 text-muted">  Maybe one of these links will help point </h6>
+                            
+                                <h6 class="card-subtitle mb-2 text-muted">
+                            
+                            you back in the right direction:</h6>
+                      
+
+                        <div class="row justify-content-center">
+                            <div class="col">
+
+                                <div id="back-button">
+
+                                    <a class="btn btn-secondary " style="border:none !important" href="https://saltydog.com/" role="button" aria-haspopup="true" aria-expanded="false">
+
+                                        <img src="https://saltydog.com/images/social-logos/DOGBUTTONnewsmall.png"> HOME PAGE
+
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col">
+
+
+                                <div id="back-button">
+
+                                    <a class="btn btn-secondary " style="border:none !important" href="https://saltydog.com/contact/" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+
+                                        <img src="https://saltydog.com/images/social-logos/DOGBUTTONnewsmall.png"> CONTACT PAGE
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <BR>
+                        <div class="row justify-content-center">
+                                <div class="col">
+    
+                                    <div id="back-button">
+    
+                                        <a class="btn btn-secondary " style="border:none !important" href="https://saltydog.com/stores/" role="button" aria-haspopup="true" aria-expanded="false">
+    
+                                            <img src="https://saltydog.com/images/social-logos/DOGBUTTONnewsmall.png"> SHOP WITH US
+    
+                                        </a>
+    
+                                    </div>
+                                </div>
+                                <div class="col">
+    
+    
+                                    <div id="back-button">
+    
+                                        <a class="btn btn-secondary " style="border:none !important" href="https://saltydog.com/dine/" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+    
+                                            <img src="https://saltydog.com/images/social-logos/DOGBUTTONnewsmall.png"> DINE WITH US
+    
+                                        </a>
+    
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+                            
+                            <br>
+
+                            <h6 class="card-subtitle mb-2 text-muted">  Or just hang out  </h6>
+                            
+                            <h6 class="card-subtitle mb-2 text-muted">
+                        
+                                    and you will be redirected to our home page in 10 seconds.</h6>
+                      
+                    </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .my-container {
+
+            border-radius: 2px;
+
+            background-color: white;
+
+            padding: 2px;
+
+            color: black;
+
+            width: 80%;
+
+        }
+
+        /* .photo-container {
+
+                    background-color: rgb(4, 4, 51)
+
+                } */
+
+        .container .card-body {
+
+            background-color: white !important
+        }
+
+        .card-body {
+            margin-top: -.1em;
+        }
+
+        .container .card {
+
+            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+            background-color: white !important;
+
+            margin: 2px;
+
+            text-align: center
+        }
+
+
+
+        .container .card-img-top {
+
+            background-color: white !important
+        }
+
+        .container h1 {
+
+            font-size: .7em;
+
+            color: rgb(4, 4, 51) !important;
+
+        }
+        h6{
+
+font-size: .7em;
+
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html></div>
     <!-- Path to Framework7 Library JS-->
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script>
@@ -254,7 +545,7 @@ function killSession() {
     xhr.send();
 }
         var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'https://saltydog.com/src/shutter.mp3');
+        audioElement.setAttribute('src', 'http://saltydog.com/src/shutter.mp3');
         //audioElement.setAttribute('autoplay', 'autoplay');
         //audioElement.load()
 
@@ -315,7 +606,7 @@ $(document).on('click tap touchstart','#cam',function(e)
 
 $(document).on('click tap touchstart','.cont',function(e)
 {
-		 var pData = 'image=<?=$img;?>';
+		 var pData = 'image=';
 		 $.ajax({
            type: "POST",
            url: "splash.php",
@@ -337,8 +628,7 @@ $(document).on('click tap touchstart','.cont',function(e)
 </script>
 
 
-    <?php $sent = 'no';?>
-<script>
+    <script>
 
  /*!
  * jQuery Simulate v@VERSION - simulate browser mouse and keyboard events

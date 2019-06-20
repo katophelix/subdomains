@@ -33,7 +33,7 @@ if (isset($_GET['image'])){
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>Salty Dog Selfie</title>
+    <title>SaltyDogSelfie</title>
     <link rel="stylesheet" href="css/framework7.min.css">
     <link rel="stylesheet" href="css/my-app.css?v=234">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -159,14 +159,16 @@ var number = getRandomInt(1000, 9999)
                         <div style="width:100%;text-align:center;color:#fff;">Take a new photo<br> or <span class="button cont color-white">continue with the previous one</span></div>
                         <?php }else{?>
  <div style="width:100%;text-align:center;color:#fff;">Take Your Photo</div>
+
+
  <?php }?>
  </div>
-
+ 
                   </div>
                 </div>
-
+			
               </div>
-
+				
              <!-- <div class="content-block-title">What about simple navigation?</div>
               <div class="list-block">
                 <ul>
@@ -199,7 +201,7 @@ var number = getRandomInt(1000, 9999)
               </div>-->
             </div>
           </div>
-
+			
         </div>
         <!-- Bottom Toolbar-->
 
@@ -215,7 +217,7 @@ var number = getRandomInt(1000, 9999)
 <?php echo $temp;?>
 </div>
     <!-- Path to Framework7 Library JS-->
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
     $(document).bind("mobileinit", function(){
           $.mobile.ajaxEnabled = false;
@@ -254,7 +256,7 @@ function killSession() {
     xhr.send();
 }
         var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'https://saltydog.com/src/shutter.mp3');
+        audioElement.setAttribute('src', 'http://saltydogcafe.com/selfie.saltydog.com/src/shutter.mp3');
         //audioElement.setAttribute('autoplay', 'autoplay');
         //audioElement.load()
 
