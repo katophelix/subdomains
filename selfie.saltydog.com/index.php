@@ -17,7 +17,7 @@ function curl_download($Url){
     return $output;
 }
 
-$temp = curl_download('http://www.saltydog.com/weather/sbeach/weather2.inc?v='.rand());
+// $temp = curl_download('https://www.saltydog.com/weather/sbeach/weather2.inc?v='.rand());
 $img = '';
 if (isset($_GET['image'])){
 	$img = $_GET['image'];
@@ -41,7 +41,8 @@ if (isset($_GET['image'])){
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
-var number = getRandomInt(1000, 9999)
+var number = getRandomInt(1000, 9999);
+console.log(number)
 </script>
   </head>
   <body>
@@ -57,7 +58,7 @@ var number = getRandomInt(1000, 9999)
 }(document, 'script', 'facebook-jssdk'));
 */
 </script>
-  <div style="max-width:426px;max-height:758px;height:100%;margin:0 auto;background:url(../bg.jpg) no-repeat 0 0;background-size:cover;position:relative;z-index:99999;">
+  <div style="max-width:426px;max-height:758px;height:100%;margin:0 auto;background:url(https://www.saltydog.com/images/background/WEB_WHITEMARINA_BACKGROUND.jpg) no-repeat 0 0;background-size:cover;position:relative;z-index:99999;">
    <form id="cam2" name="cam" action="test.php" method="POST">
  <input type="hidden" class="image" name="image" value="image-">
  </form>
@@ -66,41 +67,41 @@ var number = getRandomInt(1000, 9999)
     <div class="panel panel-left panel-reveal">
 
               <div class="list-block">
-                <ul id="mobmenuleft">
-<li><a class="item-link external" rel="external" href="http://saltydog.com/"><div class="item-content"><div class="item-inner"> <div class="item-title">Home</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/survey/"><div class="item-content"><div class="item-inner"> <div class="item-title">Feed Us Back</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://store.saltydog.com"><div class="item-content"><div class="item-inner"> <div class="item-title">Shop</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/cruise/"><div class="item-content"><div class="item-inner"> <div class="item-title">Cruise</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/lucky-receipt/"><div class="item-content"><div class="item-inner"> <div class="item-title">Lucky Receipt</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/lucky8/"><div class="item-content"><div class="item-inner"> <div class="item-title">Lucky 8</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="/pages/photos/"><div class="item-content"><div class="item-inner"> <div class="item-title">Pet Photos</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/people/"><div class="item-content"><div class="item-inner"> <div class="item-title">People Photos</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/jake/"><div class="item-content"><div class="item-inner"> <div class="item-title">Jake &amp; Friends Pics</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/santa-photos/"><div class="item-content"><div class="item-inner"> <div class="item-title">Santa Photos</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/in-memorial/"><div class="item-content"><div class="item-inner"> <div class="item-title">Pet Memorial</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/hilton-head-weather/"><div class="item-content"><div class="item-inner"> <div class="item-title">Weather</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/pages/salty-dog-cafe/"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog Cafe</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/pages/the-wreck/"><div class="item-content"><div class="item-inner"> <div class="item-title">The Wreck of the Salty Dog</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/dining/lands-end-tavern/"><div class="item-content"><div class="item-inner"> <div class="item-title">Lands End Tavern</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/jakes-salty-dog-pizza/"><div class="item-content"><div class="item-inner"> <div class="item-title">Jake’s Salty Dog Pizza</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/kiwis-island-grill/"><div class="item-content"><div class="item-inner"> <div class="item-title">Kiwi’s Island Grill</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/salty-dog-ice-cream/"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog Ice Cream</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/pages/webcams/"><div class="item-content"><div class="item-inner"> <div class="item-title">Webcams</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/mcal"><div class="item-content"><div class="item-inner"> <div class="item-title">Events</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="#"><div class="item-content"><div class="item-inner"> <div class="item-title">Locations</div></div></div></a>
-<ul class="sub-menu">
-	<li><a class="item-link external" rel="external" href="http://saltydog.com/salty-dog-t-shirt-factory/"><div class="item-content"><div class="item-inner"> <div class="item-title">Arrow Road</div></div></div></a></li>
-	<li><a class="item-link external" rel="external" href="http://saltydog.com/jakes-cargo/"><div class="item-content"><div class="item-inner"> <div class="item-title">Jakes Cargo</div></div></div></a></li>
-	<li><a class="item-link external" rel="external" href="http://keywest.saltydog.com"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog Key West</div></div></div></a></li>
-	<li><a class="item-link external" rel="external" href="http://saltydog.com/tanger-outlet/"><div class="item-content"><div class="item-inner"> <div class="item-title">Tanger Outlet</div></div></div></a></li>
-	<li><a class="item-link external" rel="external" href="http://saltydog.com/salty-dog-t-shirt-shop/"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog T-Shirt Shop</div></div></div></a></li>
-</ul>
-</li>
-<li><a class="item-link external" rel="external" href="http://sbinn.com"><div class="item-content"><div class="item-inner"> <div class="item-title">Accommodations</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/contact/"><div class="item-content"><div class="item-inner"> <div class="item-title">Contact</div></div></div></a></li>
-<li><a class="item-link external" rel="external" href="http://saltydog.com/employment/"><div class="item-content"><div class="item-inner"> <div class="item-title">Employment</div></div></div></a></li>
-</ul>
-             <ul>
+<!--                <ul id="mobmenuleft">-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/"><div class="item-content"><div class="item-inner"> <div class="item-title">Home</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/survey/"><div class="item-content"><div class="item-inner"> <div class="item-title">Feed Us Back</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://store.saltydog.com"><div class="item-content"><div class="item-inner"> <div class="item-title">Shop</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/cruise/"><div class="item-content"><div class="item-inner"> <div class="item-title">Cruise</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/lucky-receipt/"><div class="item-content"><div class="item-inner"> <div class="item-title">Lucky Receipt</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/lucky8/"><div class="item-content"><div class="item-inner"> <div class="item-title">Lucky 8</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="/pages/photos/"><div class="item-content"><div class="item-inner"> <div class="item-title">Pet Photos</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/people/"><div class="item-content"><div class="item-inner"> <div class="item-title">People Photos</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/jake/"><div class="item-content"><div class="item-inner"> <div class="item-title">Jake &amp; Friends Pics</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/santa-photos/"><div class="item-content"><div class="item-inner"> <div class="item-title">Santa Photos</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/in-memorial/"><div class="item-content"><div class="item-inner"> <div class="item-title">Pet Memorial</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/hilton-head-weather/"><div class="item-content"><div class="item-inner"> <div class="item-title">Weather</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/pages/salty-dog-cafe/"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog Cafe</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/pages/the-wreck/"><div class="item-content"><div class="item-inner"> <div class="item-title">The Wreck of the Salty Dog</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/dining/lands-end-tavern/"><div class="item-content"><div class="item-inner"> <div class="item-title">Lands End Tavern</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/jakes-salty-dog-pizza/"><div class="item-content"><div class="item-inner"> <div class="item-title">Jake’s Salty Dog Pizza</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/kiwis-island-grill/"><div class="item-content"><div class="item-inner"> <div class="item-title">Kiwi’s Island Grill</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/salty-dog-ice-cream/"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog Ice Cream</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/pages/webcams/"><div class="item-content"><div class="item-inner"> <div class="item-title">Webcams</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/mcal"><div class="item-content"><div class="item-inner"> <div class="item-title">Events</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="#"><div class="item-content"><div class="item-inner"> <div class="item-title">Locations</div></div></div></a>-->
+<!--<ul class="sub-menu">-->
+<!--	<li><a class="item-link external" rel="external" href="https://saltydog.com/salty-dog-t-shirt-factory/"><div class="item-content"><div class="item-inner"> <div class="item-title">Arrow Road</div></div></div></a></li>-->
+<!--	<li><a class="item-link external" rel="external" href="https://saltydog.com/s/"><div class="item-content"><div class="item-inner"> <div class="item-title">Jakes Cargo</div></div></div></a></li>-->
+<!--	<li><a class="item-link external" rel="external" href="https://keywest.saltydog.com"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog Key West</div></div></div></a></li>-->
+<!--	<li><a class="item-link external" rel="external" href="https://saltydog.com/tanger-outlet/"><div class="item-content"><div class="item-inner"> <div class="item-title">Tanger Outlet</div></div></div></a></li>-->
+<!--	<li><a class="item-link external" rel="external" href="https://saltydog.com/salty-dog-t-shirt-shop/"><div class="item-content"><div class="item-inner"> <div class="item-title">Salty Dog T-Shirt Shop</div></div></div></a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li><a class="item-link external" rel="external" href="https://sbinn.com"><div class="item-content"><div class="item-inner"> <div class="item-title">Accommodations</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/contact/"><div class="item-content"><div class="item-inner"> <div class="item-title">Contact</div></div></div></a></li>-->
+<!--<li><a class="item-link external" rel="external" href="https://saltydog.com/employment/"><div class="item-content"><div class="item-inner"> <div class="item-title">Employment</div></div></div></a></li>-->
+<!--</ul>-->
+<!--             <ul>-->
                   <li><a href="splash.php" class="item-link services">
                       <div class="item-content">
                         <div class="item-inner">
@@ -136,13 +137,13 @@ var number = getRandomInt(1000, 9999)
               <div class="content-block">
                 <div class="content-block-inner">
                   <!--<img src="img/smile.png" style="width:154px;height:70px;position:relative;left:50%;margin-left:-77px;top:0px;" alt="Smile at the Salty Dog Cafe" title="Smile at The Salty Dog Cafe">-->
-                  <!-- <img class="webimg" src="http://98.101.223.10:8251/axis-cgi/mjpg/video.cgi" alt="Please Stand By For Webcam Photo Upload" name="pic" id="pic" style="width:100%;">-->
+                  <!-- <img class="webimg" src="https://98.101.223.10:8251/axis-cgi/mjpg/video.cgi" alt="Please Stand By For Webcam Photo Upload" name="pic" id="pic" style="width:100%;">-->
                  <img class="webimg" src="http://98.101.223.10:8251/axis-cgi/mjpg/video.cgi" style="width:100%;" />
                   <div class="spin" style="position:absolute;font-size:30px;color:#fff;top:100px;left:50%;margin-left:-15px;display:none;"><i class="fa fa-spinner fa-spin"></i></div>
                   <div style="width:100%;height:5px;margin-top:-5px;display:block;background:#2b3949;"></div>
                   <div>
                  <!-- <div style="width:100%;color:#fff !important;text-align:center;position:relative;top:50px;">
-                  <div class="fb-like" data-href="http://selfie.saltydog.com/" data-width="200" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+                  <div class="fb-like" data-href="https://selfie.saltydog.com/" data-width="200" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
                    </div>-->
                   <div id="mess">
                   
@@ -197,8 +198,8 @@ var number = getRandomInt(1000, 9999)
                   <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
                 </div>
               </div>-->
-            </div>
-          </div>
+          <!--  </div>-->
+          <!--</div>-->
 
         </div>
         <!-- Bottom Toolbar-->
@@ -233,28 +234,28 @@ jQuery(document).ready(function($){
 
 });
 </script>
-<script>
-jQuery(document).ready(function($){
-	var temp1 = $('.weather_font tr:eq(2)');
-	var temp = $('td:eq(1)',temp1).text();
-	//var temp = temp.substring(0,2);
-	//temp = Number(temp);
-	temp = Math.round(parseInt(temp));
-	$('#temp').html(' ' + temp + '&deg;');
-	var wind2 = $('td:eq(3)',temp1).text();
-	$('.wind2').html('<span style="font-size:14px">Wind ' + wind2 + '</span>');
-});
-</script>
+// <script>
+// jQuery(document).ready(function($){
+// 	var temp1 = $('.weather_font tr:eq(2)');
+// 	var temp = $('td:eq(1)',temp1).text();
+// 	//var temp = temp.substring(0,2);
+// 	//temp = Number(temp);
+// 	temp = Math.round(parseInt(temp));
+// 	$('#temp').html(' ' + temp + '&deg;');
+// 	var wind2 = $('td:eq(3)',temp1).text();
+// 	$('.wind2').html('<span style="font-size:14px">Wind ' + wind2 + '</span>');
+// });
+// </script>
 <script>
 jQuery(document).ready(function($){
 
 function killSession() {
-    var xhr = new XMLHttpRequest();
+    var xhr = new XMLhttpRequest();
     xhr.open('GET', 'session.php', true);
     xhr.send();
 }
         var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'http://saltydog.com/src/shutter.mp3');
+        audioElement.setAttribute('src', 'http://selfie.saltydog.com/src/shutter.mp3');
         //audioElement.setAttribute('autoplay', 'autoplay');
         //audioElement.load()
 
@@ -346,7 +347,7 @@ $(document).on('click tap touchstart','.cont',function(e)
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
  * Date: @DATE
  */
@@ -479,8 +480,8 @@ $.extend( $.simulate.prototype, {
 		} else if ( document.createEventObject ) {
 			event = document.createEventObject();
 			$.extend( event, options );
-			// standards event.button uses constants defined here: http://msdn.microsoft.com/en-us/library/ie/ff974877(v=vs.85).aspx
-			// old IE event.button uses constants defined here: http://msdn.microsoft.com/en-us/library/ie/ms533544(v=vs.85).aspx
+			// standards event.button uses constants defined here: https://msdn.microsoft.com/en-us/library/ie/ff974877(v=vs.85).aspx
+			// old IE event.button uses constants defined here: https://msdn.microsoft.com/en-us/library/ie/ms533544(v=vs.85).aspx
 			// so we actually need to map the standard back to oldIE
 			event.button = {
 				0: 1,
@@ -513,7 +514,7 @@ $.extend( $.simulate.prototype, {
 					options.ctrlKey, options.altKey, options.shiftKey, options.metaKey,
 					options.keyCode, options.charCode );
 			// initKeyEvent throws an exception in WebKit
-			// see: http://stackoverflow.com/questions/6406784/initkeyevent-keypress-only-works-in-firefox-need-a-cross-browser-solution
+			// see: https://stackoverflow.com/questions/6406784/initkeyevent-keypress-only-works-in-firefox-need-a-cross-browser-solution
 			// and also https://bugs.webkit.org/show_bug.cgi?id=13368
 			// fall back to a generic event until we decide to implement initKeyboardEvent
 			} catch( err ) {

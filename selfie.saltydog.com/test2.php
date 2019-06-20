@@ -13,7 +13,7 @@ if(isset($_POST['email'])){
 if(isset($_POST['message'])){
 	$message = $_POST['message'];
 }
-$bob = '8436836473@vtext.com';
+$bob = '8433846463@mms.att.net';
 $rob = '8432903443@mms.att.net';
 $sent = 'yes';
 $email = new PHPMailer();

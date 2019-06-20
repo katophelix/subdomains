@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9994729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-9994729-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Daily Specials </title>
+    <!-- Modernizr -->
+
+    <!-- jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- framework css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--<![endif]-->
+    <link rel="icon" type="image/png" href="../images/social-logos/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Quicksand" rel="stylesheet">
+
+</head>
+<style>
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+
+<body>
+
+  
+
+    <div class="container">
+
+        <form action="action.php" method="POST">
+
+            <p> Daily Specials</p>
+            <!-- <p> If the restaurant is closed for the season or the daily special has not been created yet - just choose that
+                restaurant and pick closed image or coming soon image</p> -->
+
+                <!-- <input name="date" type="date" placeholder="Today's Date" /> -->
+
+                <select name="meal">
+                        <option value="">Pick a meal</option>
+                        <option value="Breakfast Special for">breakfast</option>
+                        <option value="Lunch Special for">lunch</option>
+                        <option value="Dinner Special for">dinner</option>
+                  
+                    </select>
+            <select name="restaurant">
+                <option value="">Pick a Restaurant</option>
+                <!-- <option value="cafe">cafe</option>
+                <option value="let">let</option>
+                <option value="bluffdog">bluffdog</option>
+                <option value="wreck">wreck</option> -->
+                <option value="bodog">bodog</option>
+            </select>
+
+            <select name="chef">
+                <option value="">Pick a chef</option>
+                <option value="Chef Herb Britton">herb</option>
+                <option value="Chef Tema Wilson">tema</option>
+                <option value="Chef Jordan Bryan">jordan</option>
+                <option value="Chef Terrell Scott">terrell</option>
+                <option value="Chef Toro Cortes">Toro</option>
+                <option value="Chef Julio Barragan">Julio</option>
+                <option value="Chef Josh Gaskey">Josh</option>
+                <option value="Chef Lupe Jimenez">lupe</option>
+                <option value="Chef Jocephus Green">Joey</option>
+                <option value="Chef Daneil Brown">daneil</option>
+                <option value="Chef Dominic Frost">dominic</option>
+                <option value="Chef Alex Saalfeld">alex</option>
+                <option value="Chef Vicente Itehua">vicente</option>
+                <option value=" Chef Connor Roberts">connor</option>
+            </select>
+
+            <!-- <select name="bio">
+                <option value="">Pick a chef bio</option>
+                <option value="Our Executive Chef Herb is a Salty Dog veteran with over 17 years of experience under his belt. He and his wife, Mel along with their son Cole (15) love lowcountry living. Chef Herb's favorite Salty Dog dish, as a Maryland native, is our Maryland Crab Cakes.">herb
+                    bio</option>
+                <option value="Meet Tema! With 8 years of Salty Dog experience she knows the Seafood Pot Pie is a classic and also one of her favorite dishes. When she's not cooking up delicious food at the Salty Dog she enjoys time with her two daughters, Malayah (6) and Ahmari (9)">tema
+                    bio</option>
+                <option value="With just 7 years of Salty Dog experience, Jordan is learning from some of the best! When he's not busy in the kitchen, he's hanging out with his 1 1/2 year old son, Jihan or eating his favorite dish the Jambalaya Pasta">jordan
+                    bio
+                </option>
+                <option value="Terrell's been cooking up Salty Dog specials for 17 years and his favorite treat is our iconic Hushpuppies! Outside of work he keeps busy with 4 kids and 6 grandkids!">terrell
+                    bio
+                </option>
+                <option value="Toro, a Salty Dog vet of 16 years, is a big fan of the Gumbo as well as hanging out with his two amazing daughters!
+        ">toro bio</option>
+                <option value=" Talk about Salty Dog experience! Julio has been a part of the Salty Dog team for 27 years! He loves our Maryland Crab Cakes as well as spending spare time with his wife, Patty and their boys, Oscar and Julio.
+        ">julio bio</option>
+
+                <option value=" A newbie to the Salty Dog cooking squad, Josh has been on board for 2.5 years. He joined the team from Charlotte, NC and brought his wife Stacy to the lowcountry with him. Soon after they were joined by their 2 year old son, Eli. His favorite Salty Dog dish is the southern treat - shrimp and grits! ">josh
+                    bio</option>
+                <option value=" Another seasoned vet, Chef Lupe has been cooking up Salty Dog classics for 19 years. He enjoys spending time outside of work with his wife and 3 children. His go-to Salty Dog dish is our Seafood Pasta. ">lupe
+                    bio</option>
+                    <option value=" Jocephus joined the crew in 2012 and has been serving up delicious dishes every since. Despite our menus being loaded with many eclectic dishes, he loves a classic South Beach hot dog! ">joey
+                            bio</option>
+                            <option value="Daniel has been with Salty Dog for 3 years his Jamaican roots influence his culinary skills. He along with his wife and son enjoy lowcountry living! His favorite Salty Dog dish is the popular, Jerk Chicken Pasta ">daniel
+                                    bio</option>
+                                    <option value=" A 6-year veteran, when Dominic isn't busy keeping Land's End Tavern running smoothly, he enjoys playing basketball. His go-to South Beach snack is a big juicy Jake Burger!">dominic
+                                            bio</option>
+            </select> -->
+
+            <!-- <select name="image">
+                <option value="">Pick a chef image or closed for season image or coming soon image</option>
+                <option value="images/herb.jpg">herb image</option>
+                <option value="images/tema.jpg">tema image</option>
+                <option value="images/jordan.jpg">jordan image</option>
+                <option value="images/terrell.jpg">terrell image</option>
+                <option value="images/toro.jpg">toro image</option>
+                <option value="images/julio.jpg">julio image</option>
+                <option value="images/josh.jpg">josh image</option>
+                <option value="images/lupe.jpg">lupe image</option>
+                <option value="images/daniel.jpg">daniel image</option>
+                <option value="images/joey.jpg">joey image</option>
+                <option value="images/dominic.jpg">dominic image</option>
+                <option value="images/CLOSED_forseason-1.jpg">Closed for Season</option>
+                <option value="images/DailySpecial_comingsoon-1.jpg">Coming soon</option>
+            </select> -->
+            <input name="special_name" type="text" placeholder="Enter Special name" />
+            <input name="special_descr" type="text" placeholder="Enter special description" />
+
+            <select name="header">
+                    <option value="">If you want to use a header - pick one</option>
+                    <option value="Kid's Special">kid</option>
+                    <option value="Dessert Special">dessert</option>
+                    <option value="Drinks Special">drinks</option>
+              
+                </select>
+
+
+            <input name="child_name" type="text" placeholder="Enter another special" />
+            <input name="child_descr" type="text" placeholder="Enter special description" />
+            <input type="submit" name="submit" value="Save Data">
+        </form>
+    </div>

@@ -1,0 +1,116 @@
+/* CSS Document */
+/* #accorian1{width: 900px;  overflow: scroll; padding: 10px;}
+.mega-menu a{text-decoration: none; } */
+/* .mega-menu .sub-menu-heading{ color: darkcyan;} */
+/* @media(max-width:500px){
+	.fixed-top{width: 300px; background-color: rgba(255, 255, 255);}
+} */
+
+body {
+    color: rgb(4, 4, 51);
+    background-image:url("../images/background/WEB_WHITEMARINA_BACKGROUND.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+    min-height: 1400px
+}
+
+.my-container{
+    text-align: center;
+         background: white !important;
+         color: rgb(4, 4, 51) !important;
+        width: 90%;
+        margin-left: 6%;
+        margin-bottom: 20px;
+        }
+
+html { font-size: calc(1em + 1vw) }
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+     
+
+
+  .btn-secondary {
+    background: rgb(4, 4, 51);
+   border: none;
+    color: white;
+    white-space: normal !important;
+    font-size: .7em !important;
+    font-family: 'Baloo Bhaina', cursive;
+    text-transform: uppercase;
+
+   
+}
+
+.btn-primary {
+    background: none;
+   border: rgb(4, 4, 51) solid 4px;
+    color: rgb(4, 4, 51);
+    white-space: normal !important;
+    font-size: .7em !important;
+    font-family: 'Baloo Bhaina', cursive;
+    text-transform: uppercase;
+
+   
+}
+label {
+    font-size: .6em;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+.form-text {
+    font-size: .6em;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+h1 {
+   
+    font-family: 'Baloo Bhaina', cursive;
+    text-transform: uppercase;
+   
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+
+
+h2 {
+    margin-bottom: .2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+h3 {
+    margin-bottom: .2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4 {
+    margin-bottom: .2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+    margin-bottom: .2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+h6 {
+    margin-bottom: .2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+p {
+  
+    margin-bottom: 0 !important;
+    font-family: 'Quicksand', sans-serif;
+} 
+.my-container {
+
+    padding-top: 5px;
+    padding-bottom: 5px
+}

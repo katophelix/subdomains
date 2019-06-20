@@ -37,7 +37,7 @@ if(isset($_POST['image'])){
          <a href="email.php" class="button button-big  active" style="margin-top:10px;">Email Your Photo </a>
        
 <!--<a href="contest.php" class="contest button button-big  active" style="margin-top:10px;">Enter in Photo Contest </a>-->
-<a href="#" class="discard button button-big  active color-red" style="margin-top:0px;width:44%;float:left;margin-left:5%;">Discard</a>
+<a href="http://selfie.saltydog.com/" class="discard button button-big  active color-red" style="margin-top:0px;width:44%;float:left;margin-left:5%;">Discard</a>
 <a href="#" class="download button button-big  active color-green" style="margin-top:0px;width:44%;float:left;margin-left:2%;margin-right:5%;">Save Photo</a>
 <div style="width:100%;color:#fff;font-size:10px;text-align:center;padding:10px;"><div style="width:90%;text-align:left;text-align:center;">Salty Dog does not store or share your e-mail address.</div></div>
 </div>

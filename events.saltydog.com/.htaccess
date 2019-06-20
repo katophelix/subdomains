@@ -16,8 +16,10 @@ RewriteOptions inherit
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 
-
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://events.saltydog.com/$1 [R,L]
 
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET,PUT,POST,DELETE"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization"
